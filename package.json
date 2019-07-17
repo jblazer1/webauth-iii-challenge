@@ -1,0 +1,25 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "description": "webauth-iii-challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/jblazer1/webauth-iii-challenge.git",
+  "author": "JamesB <jblazer1@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.19.0",
+    "node": "^12.6.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
